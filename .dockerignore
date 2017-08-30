@@ -1,0 +1,8 @@
+*.md
+*.sh
+Makefile
+bin/
+templates/
+test/
+src/
+data/

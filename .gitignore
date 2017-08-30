@@ -1,0 +1,17 @@
+data/
+.idea/
+.idea
+.DS_Store
+__init__.py
+node_module
+yarn.lock
+redis/
+hubot_slack_secret.yml
+hubot_spark_secret.yml
+.vault_pass
+.passwords
+node_modules
+tools/site/web/json
+.vscode
+public/
+proxy/conf.d/default.conf
