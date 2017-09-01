@@ -1,3 +1,107 @@
 h1 {
   color: #444;
 }
+
+//colors
+$color_curious_blue_bg_approx: rgb(30, 136, 229);
+$color_endeavour_bg_approx: rgb(0, 89, 163);
+
+$black_19: rgba(0, 0, 0, 0.19);
+$white: rgba(255, 255, 255, 0.9);
+$color_dove_gray_approx: rgb(107, 107, 107);
+
+//fonts
+$roboto: 'Roboto';
+$helvetica_neue: 'Helvetica Neue';
+$helvetica: 'Helvetica';
+$arial: 'arial';
+$sans_serif: 'sans-serif';
+
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $color_curious_blue_bg_approx;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.no--select {
+  user-select: none;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+body {
+	font-family: $roboto, $helvetica_neue, $helvetica, $arial, $sans_serif;
+	font-size: 1rem;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+
+.app-layout {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+  background-color: $color_endeavour_bg_approx;
+  //background-color: $color_curious_blue_bg_approx;
+  color: $white;
+  transition: background-color 250ms linear;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+	width: 100%;
+	height: 56px;
+	box-shadow: 0 2px 2px 0 $black_19;
+	display: flex;
+	overflow: hidden;
+	user-select: none;
+}
+
+.app__offline {
+	background-color: $color_dove_gray_approx;
+}
+
+.header__icon {
+	width: 48px;
+	height: 48px;
+	margin: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	&:active {
+		opacity: 0.8;
+		outline: 1px solid $white;
+	}
+}
+
+.header__title {
+	color: $white;
+  font-size: 20px;
+  align-self: center;
+  margin-left: 10px;
+}
