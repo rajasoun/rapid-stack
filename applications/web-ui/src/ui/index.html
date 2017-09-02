@@ -23,21 +23,6 @@
       <link rel="stylesheet" href="{{rootURL}}app.css" async>
       {{content-for 'critical-css'}}
       {{content-for "head-footer"}}
-      <style>
-         #skip a {
-           position: absolute;
-           left: -10000px;
-           top: auto;
-           width: 1px;
-           height: 1px;
-           overflow: hidden;
-         }
-         #skip a:focus {
-           position: static;
-           width: auto;
-           height: auto;
-         }
-      </style>
    </head>
    <body>
       <div id="skip"><a href="#app">skip to navigation</a></div>
