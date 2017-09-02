@@ -15,10 +15,12 @@
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
       <meta name="apple-mobile-web-app-title" content="Rapid Stack PWA">
       <meta name="application-name" content="Rapid Stack PWA">
+      <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
       <link rel="prefetch" href="/sw.js">
       <link rel="prefetch" href="/assets/icon.jpg">
       <link rel="prefetch" href="/icon-512x512.png">
       <link rel="manifest" href="/manifest.json">
+      <link rel="prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js">      
       {{content-for "head"}}
       <link rel="stylesheet" href="{{rootURL}}app.css" async>
       {{content-for 'critical-css'}}
@@ -35,6 +37,7 @@
          </h3>
       </noscript>
       <script src="{{rootURL}}app.js" async></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js" async></script>
       {{content-for "body-footer"}}
    </body>
 </html>
