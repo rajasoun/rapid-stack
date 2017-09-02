@@ -28,7 +28,7 @@
     "ember-cli-html-minifier": "^0.2.1",
     "ember-cli-inject-live-reload": "^1.6.1",
     "ember-cli-inline-content": "^0.4.1",
-    "ember-cli-sass": "^6.2.0",
+    "ember-cli-sass": "^7.0.0",
     "ember-cli-uglify": "^2.0.0-beta.1",
     "ember-service-worker": "^0.6.8",
     "ember-service-worker-asset-cache": "^0.6.1",
