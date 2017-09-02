@@ -1,0 +1,16 @@
+{
+  "name": "Rapid Stack",
+  "short_name": "RS",
+  "icons": [
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
+  "theme_color": "#0059a3",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "orientation": "portrait",
+  "start_url": "./"
+}

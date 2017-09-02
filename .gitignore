@@ -13,5 +13,4 @@ hubot_spark_secret.yml
 node_modules
 tools/site/web/json
 .vscode
-public/
 proxy/conf.d/default.conf
