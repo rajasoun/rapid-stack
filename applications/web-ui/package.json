@@ -9,7 +9,7 @@
   "scripts": {
     "build": "ember build -e production",
     "start": "ember server",
-    "start:prod": "ember server --environment production --live-reload false",
+    "start:prod": "ember server --environment production --live-reload false --port 4201",
     "test": "ember test"
   },
   "devDependencies": {
