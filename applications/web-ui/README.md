@@ -14,7 +14,7 @@ A progressive web application (pwa) uses modern web technologies to deliver nati
 * Linkable - Easy to share.
 
 ### Main Ingredients
-* App Shell - By caching the app shell, repeated visits on the application will be made to load fast. 
+* App Shell - By caching the app shell, repeated visits on the application will be made to load fast.
   * Components for App Shell
     * Header with icon and title.
     * Hamburger menu.
@@ -38,16 +38,17 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `yarn start`
+* Visit your app at [http://localhost:4200](http://localhost:4200)
 
 ### Building & Running In Production
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-* `npm run start:prod`
+* `yarn build`
+* `yarn start:prod`
+* Visit your app at [http://localhost:4200](http://localhost:4201)
 
 ## Further Reading / Useful Links
 
 * [glimmerjs](http://github.com/tildeio/glimmer/)
 * [ember-cli](https://ember-cli.com/)
+* 
