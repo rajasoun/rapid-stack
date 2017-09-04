@@ -13,7 +13,12 @@ module('Component: web-ui', function(hooks) {
 
   test('it renders with title', async function(assert) {
     await this.render(hbs`<web-ui />`);
-    assert.equal(this.containerElement.textContent.trim(), 'Rapid Stack');
+    assert.equal(this.containerElement.textContent.trim(), 'Rapid Stack |');
+  });
+
+  test('it renders with header', async function(assert) {
+    await this.render(hbs`<web-ui />`);
+    assert.ok(this.containerElement.querySelector('header'));
   });
 
 
