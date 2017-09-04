@@ -14,3 +14,4 @@ node_modules
 tools/site/web/json
 .vscode
 proxy/conf.d/default.conf
+applications/web-client

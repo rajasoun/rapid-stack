@@ -8,6 +8,18 @@ module('Component: web-ui', function(hooks) {
 
   test('it renders', async function(assert) {
     await this.render(hbs`<web-ui />`);
-    assert.equal(this.containerElement.textContent, 'Welcome to Glimmer!\n');
+    assert.ok(this.containerElement.querySelector('div'));
   });
+
+  test('it renders with title', async function(assert) {
+    await this.render(hbs`<web-ui />`);
+    assert.equal(this.containerElement.textContent.trim(), 'Rapid Stack |');
+  });
+
+  test('it renders with header', async function(assert) {
+    await this.render(hbs`<web-ui />`);
+    assert.ok(this.containerElement.querySelector('header'));
+  });
+
+
 });
