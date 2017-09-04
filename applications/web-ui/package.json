@@ -46,6 +46,5 @@
   },
   "private": true,
   "dependencies": {
-    "global": "^4.3.2"
   }
 }
