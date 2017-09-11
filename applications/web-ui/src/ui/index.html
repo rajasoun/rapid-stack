@@ -21,6 +21,7 @@
       <link rel="prefetch" href="/icon-512x512.png">
       <link rel="manifest" href="/manifest.json">
       <link rel="stylesheet" href="{{rootURL}}app.css" media="none" onload="if(media!='all')media='all'">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-center-simple.min.css" media="none" onload="if(media!='all')media='all'">
       {{content-for "head"}}
       {{content-for 'critical-css'}}
       {{content-for "head-footer"}}
@@ -52,11 +53,12 @@
       <script id="loadingScript">
         var ul = document.getElementById('itemsLoading');
         var el = '<li class="catalog-item"> <span class="score"><span class="loading sm"></span></span> <span class="title"> <span class="loading"></span> </span> <br> <span class="meta"> <span class="time"> <span class="loading md"></span> </span> </span> </li>';
+
         for (var i = 0; i < 30; i++) {
           ul.innerHTML += el;
         }
       </script>
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" async></script>
       <script src="{{rootURL}}app.js" async></script>
       {{content-for "body-footer"}}
    </body>
