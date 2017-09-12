@@ -45,10 +45,10 @@ You will need the following things properly installed on your computer.
 
 * `yarn build`
 * `yarn start:prod`
-* Visit your app at [http://localhost:4200](http://localhost:4201)
+* Visit your app at [http://localhost:4201](http://localhost:4201)
 
 ## Further Reading / Useful Links
 
 * [glimmerjs](http://github.com/tildeio/glimmer/)
 * [ember-cli](https://ember-cli.com/)
-* 
+*
